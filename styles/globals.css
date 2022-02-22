@@ -43,7 +43,8 @@ html {
 .article {
     display: flex;
     flex-direction: column;
-    max-height: 200px;
+
+    height: 400px;
 
     margin-bottom: 50px;
     padding-bottom: 5px;
