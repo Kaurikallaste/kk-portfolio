@@ -3,6 +3,15 @@ html {
     font-family: Monaco, monospace;
 }
 
+html::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 .container {
     display: flex;
     flex-direction: column;
