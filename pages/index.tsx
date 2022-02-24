@@ -17,10 +17,12 @@ const Home: NextPage = () => {
             <Navbar />
 
             <div className="content-list">
-                    <Article id="1"/>
-                    <Article id="2"/>
-                    <Article id="3"/>
-                    <Article id="4"/>
+                    <Article/>
+                    <Article/>
+                    <Article/>
+                    <Article/>
+                    <Article/>
+                    <Article/>
             </div>
             <Footer />
         </div>
