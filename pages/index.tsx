@@ -3,25 +3,28 @@ import Head from 'next/head';
 import React,{ useState } from 'react';
 import Navbar from './navbar';
 import Title from './title';
+import Footer from './footer';
 
 
 const Home: NextPage = () => {
     return (
         <div className="container">
-                <Head>
-                    <title>Kauri Kallaste</title>
-                    <meta name="description" content="Kauri Kallaste portfolio" />
-                </Head>
-                <Title />
-                <Navbar />
+            <Head>
+                <title>Kauri Kallaste</title>
+                <meta name="description" content="Kauri Kallaste portfolio" />
+            </Head>
+            <Title />
+            <Navbar />
 
-                <div className="content-list">
-                        <Article id="1"/>
-                        <Article id="2"/>
-                        <Article id="3"/>
-                        <Article id="4"/>
-                </div>
+            <div className="content-list">
+                    <Article id="1"/>
+                    <Article id="2"/>
+                    <Article id="3"/>
+                    <Article id="4"/>
             </div>
+            <Footer />
+        </div>
+
         );
 }
 

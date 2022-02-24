@@ -134,3 +134,14 @@ article>h1 {
 .current-url {
     background-color: #f7e9c3; 
 }
+
+.kontakt {
+    height: 50vh;
+}
+
+.footer {
+    display:flex;
+    justify-content: center;
+
+    color: #a6a6a6;
+}

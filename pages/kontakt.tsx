@@ -3,6 +3,7 @@ import Head from 'next/head';
 import React,{ useState } from 'react';
 import Navbar from './navbar';
 import Title from './title';
+import Footer from './footer';
 
 
 const Kontakt: NextPage = () => {
@@ -14,7 +15,10 @@ const Kontakt: NextPage = () => {
             </Head>
             <Title />
             <Navbar />
-            email: kaurikallaste@gmail.com
+            <div className="kontakt">
+                email: kaurikallaste@gmail.com
+            </div>
+            <Footer />
         </div>
     );
 }
