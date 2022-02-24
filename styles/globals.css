@@ -132,7 +132,10 @@ article>h1 {
 }
 
 .current-url {
-    background-color: #f7e9c3; 
+    border-radius: 10px !important;
+    color: white !important;
+
+    background-color: #4795fc !important;
 }
 
 .kontakt {
