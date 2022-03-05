@@ -7,7 +7,6 @@ export default function posts(req, res) {
       files.forEach((file) => {
           fileContArr.push(fs.readFileSync(`./public/posts/${file}`, 'utf-8'));
       });
-      console.log(fileContArr);
       res.status(200).json(fileContArr);
   } else {
 
