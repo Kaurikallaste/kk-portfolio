@@ -140,7 +140,7 @@ article>h1 {
     border-radius: 10px;
     background-color: #4795fc;
     color: white;
-    cursor: default;
+    cursor: pointer;
 
     transition: color, background-color 0.1s;
 }
