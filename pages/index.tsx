@@ -1,4 +1,4 @@
-import type { NextPage, NextComponentType } from 'next'
+import type { NextPage, NextComponentType } from 'next';
 import Head from 'next/head';
 import React,{ useState } from 'react';
 import Navbar from '../components/navbar';
@@ -42,9 +42,9 @@ const Article: NextComponentType = (props: any) => {
 
 
 export async function getStaticProps({}) {
-  const res = await fetch(`http://localhost:3000/api/posts`);
-  const posts = await res.json();
+    const res = await fetch(`http://localhost:3000/api/posts`);
+    const posts = await res.json();
 
-  return { props: { posts } };
+    return { props: { posts } };
 }
 export default Home;
